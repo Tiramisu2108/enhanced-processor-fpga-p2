@@ -1,0 +1,37 @@
+DEPTH = 128;
+WIDTH = 9;
+ADDRESS_RADIX = HEX;
+DATA_RADIX = BIN;
+
+CONTENT
+BEGIN
+
+% --- KHỞI TẠO ĐỊA CHỈ NGOẠI VI --- %
+00 : 001000000; % mvi R0, 128 (Địa chỉ LEDR) %
+01 : 010000000; 
+02 : 001010000; % mvi R2, 256 (Địa chỉ HEX) %
+03 : 100000000; 
+
+04 : 001001000; % mvi R1, 170 (Hoa văn LED: 010101010) %
+05 : 010101010; 
+06 : 001011000; % mvi R3, 341 (Hoa văn HEX: 101010101) %
+07 : 101010101; 
+
+% --- XUẤT RA NGOẠI VI (SÁNG ĐÈN) --- %
+08 : 101001000; % st R1, [R0] -> Ghi hoa văn vào LEDR %
+09 : 101011010; % st R3, [R2] -> Ghi hoa văn vào HEX %
+
+% --- CHUẨN BỊ BẪY VÔ TẬN --- %
+0A : 001100000; % mvi R4, 0 %
+0B : 000000000; 
+0C : 001101000; % mvi R5, 1 %
+0D : 000000001; 
+
+% --- BẪY VÔ TẬN (Mắc kẹt tại đây để giữ đèn sáng) --- %
+% Nhãn LOOP tại địa chỉ 0E %
+0E : 011101100; % sub R5, R4  -> Tính 1 - 0 = 1 (Bật cờ khác 0) %
+0F : 110000000; % brne LOOP   -> Nếu khác 0, nhảy... %
+10 : 000001110; % -> ...nhảy lùi về địa chỉ 0E %
+
+[11..7F] : 000000000;
+END;

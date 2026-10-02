@@ -1,0 +1,279 @@
+m255
+K3
+13
+cModel Technology
+Z0 dD:\HK252\Digital_systems\Lab\lab6\simulation\modelsim
+vadd_sub
+Z1 DXx6 sv_std 3 std 0 22 F[19LRNL:5;XmIFh[XOPn1
+I]8_0lURXDO:l]^T7VLLS11
+VZ^NhGb9o09MQTVOIjf0BS1
+S1
+Z2 dD:\HK252\Digital_systems\Lab\lab6\simulation\modelsim
+w1780640307
+8D:/HK252/Digital_systems/Lab/lab6/add_sub.sv
+FD:/HK252/Digital_systems/Lab/lab6/add_sub.sv
+L0 1
+Z3 OV;L;10.1d;51
+r1
+31
+Z4 o-sv -work work -O0
+Z5 !s92 -sv -work work +incdir+D:/HK252/Digital_systems/Lab/lab6 -O0
+!i10b 1
+!s100 ``j^GF<I8N7e3Qe8:<;gc0
+!s105 add_sub_sv_unit
+!s85 0
+!s108 1780902204.738000
+!s107 D:/HK252/Digital_systems/Lab/lab6/add_sub.sv|
+!s90 -reportprogress|300|-sv|-work|work|+incdir+D:/HK252/Digital_systems/Lab/lab6|D:/HK252/Digital_systems/Lab/lab6/add_sub.sv|
+!s101 -O0
+vbcd7seg
+R1
+I8KD30NN>Kib_bIJ>D@WiS3
+VNoHHBN@A4S_3?QlO^T1IB0
+S1
+R2
+w1780663949
+8D:/HK252/Digital_systems/Lab/lab6/bcd7seg.sv
+FD:/HK252/Digital_systems/Lab/lab6/bcd7seg.sv
+L0 1
+R3
+r1
+31
+R4
+R5
+!i10b 1
+!s100 AY8SDe>?:iHVV4HmSQzcM1
+!s105 bcd7seg_sv_unit
+!s85 0
+!s108 1780902205.283000
+!s107 D:/HK252/Digital_systems/Lab/lab6/bcd7seg.sv|
+!s90 -reportprogress|300|-sv|-work|work|+incdir+D:/HK252/Digital_systems/Lab/lab6|D:/HK252/Digital_systems/Lab/lab6/bcd7seg.sv|
+!s101 -O0
+vcounter
+R1
+I;c0fWCWH3k7YC96;68eeN0
+VV[kF8:fH<m1in7;BG>WT=0
+S1
+R2
+w1780818875
+8D:/HK252/Digital_systems/Lab/lab6/counter.sv
+FD:/HK252/Digital_systems/Lab/lab6/counter.sv
+L0 1
+R3
+r1
+31
+R4
+R5
+!i10b 1
+!s100 k50G5k1ZR^GIl`3][Lz;b0
+!s105 counter_sv_unit
+!s85 0
+!s108 1780902205.195000
+!s107 D:/HK252/Digital_systems/Lab/lab6/counter.sv|
+!s90 -reportprogress|300|-sv|-work|work|+incdir+D:/HK252/Digital_systems/Lab/lab6|D:/HK252/Digital_systems/Lab/lab6/counter.sv|
+!s101 -O0
+vdec3to8
+R1
+I7_ha3II?eSjhiY_g>P<4^2
+V2U@bIaW;LG20I9][;hcGb3
+Z6 !s105 dec3to8_sv_unit
+S1
+R2
+Z7 w1780664489
+Z8 8D:/HK252/Digital_systems/Lab/lab6/dec3to8.sv
+Z9 FD:/HK252/Digital_systems/Lab/lab6/dec3to8.sv
+L0 1
+R3
+r1
+31
+Z10 !s108 1780902204.921000
+Z11 !s107 D:/HK252/Digital_systems/Lab/lab6/dec3to8.sv|
+Z12 !s90 -reportprogress|300|-sv|-work|work|+incdir+D:/HK252/Digital_systems/Lab/lab6|D:/HK252/Digital_systems/Lab/lab6/dec3to8.sv|
+R4
+R5
+!i10b 1
+!s100 i@agg88P]jb;N[GAT0]]Y2
+!s85 0
+!s101 -O0
+vFSM
+R1
+Ib[0JMA_aHMd`9`AjH_di^3
+VaS6S`C4UW;4C^b6`Q0kmo1
+Z13 !s105 lab6_sv_unit
+S1
+R2
+Z14 w1780813560
+Z15 8D:/HK252/Digital_systems/Lab/lab6/lab6.sv
+Z16 FD:/HK252/Digital_systems/Lab/lab6/lab6.sv
+L0 79
+R3
+r1
+31
+Z17 !s108 1780902204.829000
+Z18 !s107 D:/HK252/Digital_systems/Lab/lab6/lab6.sv|
+Z19 !s90 -reportprogress|300|-sv|-work|work|+incdir+D:/HK252/Digital_systems/Lab/lab6|D:/HK252/Digital_systems/Lab/lab6/lab6.sv|
+R4
+R5
+n@f@s@m
+!i10b 1
+!s100 GP;>2FjO^8f[MXMBRBPE_1
+!s85 0
+!s101 -O0
+vfull_adder
+R1
+I5CeeSWOId3B=bXELdlhl63
+VDXIz@A8ZlZIe0^?_MInkU1
+S1
+R2
+w1780590117
+8D:/HK252/Digital_systems/Lab/lab6/full_adder.sv
+FD:/HK252/Digital_systems/Lab/lab6/full_adder.sv
+L0 1
+R3
+r1
+31
+R4
+R5
+!i10b 1
+!s100 f<DDKE3i0lSciF5SDZM:a1
+!s105 full_adder_sv_unit
+!s85 0
+!s108 1780902205.022000
+!s107 D:/HK252/Digital_systems/Lab/lab6/full_adder.sv|
+!s90 -reportprogress|300|-sv|-work|work|+incdir+D:/HK252/Digital_systems/Lab/lab6|D:/HK252/Digital_systems/Lab/lab6/full_adder.sv|
+!s101 -O0
+vlab6
+R1
+IjMRRMj6FMUKjT?hkQVLCR0
+VmgfH8zk^b>]7k5dCgQ`=N2
+R13
+S1
+R2
+R14
+R15
+R16
+L0 1
+R3
+r1
+31
+R17
+R18
+R19
+R4
+R5
+!i10b 1
+!s100 ekF[e>WkzN[z9Y>lNA7@@0
+!s85 0
+!s101 -O0
+vmux16to1
+R1
+I9P66ZLJP<jI74:OQXUMQG2
+VgFSmVDCbQd7FoU`lN<L310
+S1
+R2
+w1780590141
+8D:/HK252/Digital_systems/Lab/lab6/mux16to1.sv
+FD:/HK252/Digital_systems/Lab/lab6/mux16to1.sv
+L0 1
+R3
+r1
+31
+R4
+R5
+!i10b 1
+!s100 7YXV1J52`GnO@TzjH7[hk1
+!s105 mux16to1_sv_unit
+!s85 0
+!s108 1780902205.103000
+!s107 D:/HK252/Digital_systems/Lab/lab6/mux16to1.sv|
+!s90 -reportprogress|300|-sv|-work|work|+incdir+D:/HK252/Digital_systems/Lab/lab6|D:/HK252/Digital_systems/Lab/lab6/mux16to1.sv|
+!s101 -O0
+vram128x9
+I[U1k4<AXDFSDVO`=HAb]m3
+V_KbYIH]h2<R4XZRkV=Q`13
+R2
+w1780590603
+8D:/HK252/Digital_systems/Lab/lab6/ram128x9.v
+FD:/HK252/Digital_systems/Lab/lab6/ram128x9.v
+L0 39
+R3
+r1
+31
+o-vlog01compat -work work -O0
+!i10b 1
+!s100 110>DROMb<H12U2LeZgHd1
+!s85 0
+!s108 1780902204.561000
+!s107 D:/HK252/Digital_systems/Lab/lab6/ram128x9.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+D:/HK252/Digital_systems/Lab/lab6|D:/HK252/Digital_systems/Lab/lab6/ram128x9.v|
+!s101 -O0
+!s92 -vlog01compat -work work +incdir+D:/HK252/Digital_systems/Lab/lab6 -O0
+vregn
+R1
+IlTRkX>R@Q=N?YSIlDjUGj2
+V=S<`DR8`W1a5Bh2]:jS2>0
+R6
+S1
+R2
+R7
+R8
+R9
+L0 24
+R3
+r1
+31
+R10
+R11
+R12
+R4
+R5
+!i10b 1
+!s100 hUAOM4hJ31@lk0=7_WcS=3
+!s85 0
+!s101 -O0
+vtop_module
+R1
+I_Qk]zi9KS=MRdiWddOHb<0
+VKDbf7j;7SA9I>Dj=;TY0]3
+S1
+R2
+w1780807839
+8D:/HK252/Digital_systems/Lab/lab6/top_module.sv
+FD:/HK252/Digital_systems/Lab/lab6/top_module.sv
+L0 1
+R3
+r1
+31
+R4
+R5
+!i10b 1
+!s100 lXgHU:ackRUfXcZUMe[ln2
+!s105 top_module_sv_unit
+!s85 0
+!s108 1780902204.644000
+!s107 D:/HK252/Digital_systems/Lab/lab6/top_module.sv|
+!s90 -reportprogress|300|-sv|-work|work|+incdir+D:/HK252/Digital_systems/Lab/lab6|D:/HK252/Digital_systems/Lab/lab6/top_module.sv|
+!s101 -O0
+vtop_module_tb
+R1
+!i10b 1
+!s100 gQ^_LNf4Fn7^z4nno^2eI2
+IIj3eWE4hdjcg:jiOSVI5M1
+VQS[f^_P34@NJYkTl;LjL70
+!s105 top_module_tb_sv_unit
+S1
+R2
+w1780820421
+8D:/HK252/Digital_systems/Lab/lab6/top_module_tb.sv
+FD:/HK252/Digital_systems/Lab/lab6/top_module_tb.sv
+L0 3
+R3
+r1
+!s85 0
+31
+!s108 1780902205.371000
+!s107 D:/HK252/Digital_systems/Lab/lab6/top_module_tb.sv|
+!s90 -reportprogress|300|-sv|-work|work|+incdir+D:/HK252/Digital_systems/Lab/lab6|D:/HK252/Digital_systems/Lab/lab6/top_module_tb.sv|
+!s101 -O0
+R4
+R5

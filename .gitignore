@@ -1,0 +1,18 @@
+# Quartus generated files
+db/
+incremental_db/
+output_files/
+*.qws
+*.smsg
+*.summary
+*.rpt
+
+# ModelSim generated files
+*.wlf
+transcript
+vsim.wlf
+
+# Temporary files
+*.bak
+*.tmp
+*.log

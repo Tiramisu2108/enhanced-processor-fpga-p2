@@ -1,0 +1,130 @@
+# Reading E:/altera/modelsim_ase/tcl/vsim/pref.tcl 
+# do lab6_run_msim_rtl_verilog.do 
+# if {[file exists rtl_work]} {
+# 	vdel -lib rtl_work -all
+# }
+# vlib rtl_work
+# vmap work rtl_work
+# Copying E:\altera\modelsim_ase\win32aloem/../modelsim.ini to modelsim.ini
+# Modifying modelsim.ini
+# ** Warning: Copied E:\altera\modelsim_ase\win32aloem/../modelsim.ini to modelsim.ini.
+#          Updated modelsim.ini.
+# 
+# vlog -vlog01compat -work work +incdir+D:/HK252/Digital_systems/Lab/lab6 {D:/HK252/Digital_systems/Lab/lab6/ram128x9.v}
+# Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+# -- Compiling module ram128x9
+# 
+# Top level modules:
+# 	ram128x9
+# vlog -sv -work work +incdir+D:/HK252/Digital_systems/Lab/lab6 {D:/HK252/Digital_systems/Lab/lab6/top_module.sv}
+# Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+# -- Compiling module top_module
+# 
+# Top level modules:
+# 	top_module
+# vlog -sv -work work +incdir+D:/HK252/Digital_systems/Lab/lab6 {D:/HK252/Digital_systems/Lab/lab6/add_sub.sv}
+# Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+# -- Compiling module add_sub
+# 
+# Top level modules:
+# 	add_sub
+# vlog -sv -work work +incdir+D:/HK252/Digital_systems/Lab/lab6 {D:/HK252/Digital_systems/Lab/lab6/lab6.sv}
+# Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+# -- Compiling module lab6
+# -- Compiling module FSM
+# 
+# Top level modules:
+# 	lab6
+# vlog -sv -work work +incdir+D:/HK252/Digital_systems/Lab/lab6 {D:/HK252/Digital_systems/Lab/lab6/dec3to8.sv}
+# Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+# -- Compiling module dec3to8
+# -- Compiling module regn
+# 
+# Top level modules:
+# 	dec3to8
+# 	regn
+# vlog -sv -work work +incdir+D:/HK252/Digital_systems/Lab/lab6 {D:/HK252/Digital_systems/Lab/lab6/full_adder.sv}
+# Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+# -- Compiling module full_adder
+# 
+# Top level modules:
+# 	full_adder
+# vlog -sv -work work +incdir+D:/HK252/Digital_systems/Lab/lab6 {D:/HK252/Digital_systems/Lab/lab6/mux16to1.sv}
+# Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+# -- Compiling module mux16to1
+# 
+# Top level modules:
+# 	mux16to1
+# vlog -sv -work work +incdir+D:/HK252/Digital_systems/Lab/lab6 {D:/HK252/Digital_systems/Lab/lab6/counter.sv}
+# Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+# -- Compiling module counter
+# 
+# Top level modules:
+# 	counter
+# vlog -sv -work work +incdir+D:/HK252/Digital_systems/Lab/lab6 {D:/HK252/Digital_systems/Lab/lab6/bcd7seg.sv}
+# Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+# -- Compiling module bcd7seg
+# 
+# Top level modules:
+# 	bcd7seg
+# 
+# vlog -sv -work work +incdir+D:/HK252/Digital_systems/Lab/lab6 {D:/HK252/Digital_systems/Lab/lab6/top_module_tb.sv}
+# Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+# -- Compiling module top_module_tb
+# 
+# Top level modules:
+# 	top_module_tb
+# 
+# vsim -t 1ps -L altera_ver -L lpm_ver -L sgate_ver -L altera_mf_ver -L altera_lnsim_ver -L cyclonev_ver -L cyclonev_hssi_ver -L cyclonev_pcie_hip_ver -L rtl_work -L work -voptargs="+acc"  top_module_tb
+# vsim -L altera_ver -L lpm_ver -L sgate_ver -L altera_mf_ver -L altera_lnsim_ver -L cyclonev_ver -L cyclonev_hssi_ver -L cyclonev_pcie_hip_ver -L rtl_work -L work -voptargs=\"+acc\" -t 1ps top_module_tb 
+# Loading sv_std.std
+# Loading work.top_module_tb
+# Loading work.top_module
+# Loading work.lab6
+# Loading work.regn
+# Loading work.FSM
+# Loading work.dec3to8
+# Loading work.add_sub
+# Loading work.full_adder
+# Loading work.mux16to1
+# Loading work.counter
+# Loading work.ram128x9
+# Loading altera_mf_ver.altsyncram
+# Loading altera_mf_ver.ALTERA_DEVICE_FAMILIES
+# Loading altera_mf_ver.ALTERA_MF_MEMORY_INITIALIZATION
+# Loading work.bcd7seg
+# 
+# add wave *
+# view structure
+# .main_pane.structure.interior.cs.body.struct
+# view signals
+# .main_pane.objects.interior.cs.body.tree
+# run -all
+# ** Note: $finish    : D:/HK252/Digital_systems/Lab/lab6/top_module_tb.sv(35)
+#    Time: 2560 ns  Iteration: 0  Instance: /top_module_tb
+# 1
+# Break in Module top_module_tb at D:/HK252/Digital_systems/Lab/lab6/top_module_tb.sv line 35
+# Simulation Breakpoint: 1
+# Break in Module top_module_tb at D:/HK252/Digital_systems/Lab/lab6/top_module_tb.sv line 35
+# MACRO ./lab6_run_msim_rtl_verilog.do PAUSED at line 25
+add wave  \
+sim:/top_module_tb/DUT/processor/control_unit/present_state \
+sim:/top_module_tb/DUT/processor/control_unit/next_state
+restart
+# Loading sv_std.std
+# Loading work.top_module_tb
+# Loading work.top_module
+# Loading work.lab6
+# Loading work.regn
+# Loading work.FSM
+# Loading work.dec3to8
+# Loading work.add_sub
+# Loading work.full_adder
+# Loading work.mux16to1
+# Loading work.counter
+# Loading work.bcd7seg
+run -all
+# ** Note: $finish    : D:/HK252/Digital_systems/Lab/lab6/top_module_tb.sv(35)
+#    Time: 2560 ns  Iteration: 0  Instance: /top_module_tb
+# 1
+# Break in Module top_module_tb at D:/HK252/Digital_systems/Lab/lab6/top_module_tb.sv line 35
